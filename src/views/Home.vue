@@ -48,15 +48,9 @@
             <img class="img-fluid" src="../../public/img/home/4.jpeg" alt="">
         </div>
       </div>
-      
     </div>
 
 
-    <div class="row">
-      <div class="col">
-
-      </div>
-    </div>
 
   </div>
 

@@ -1,6 +1,7 @@
 <template>
-  <div class="about">
+  <div>
     <h1>This is an about page</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
   </div>
 </template>
 
@@ -9,3 +10,9 @@
     name: "About"
   }
 </script>
+
+<style scoped>
+  .about{
+    margin-top: 400px;
+  }
+</style>

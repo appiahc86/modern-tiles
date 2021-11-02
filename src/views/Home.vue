@@ -10,8 +10,8 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-10">
-          <h1 class="text-white text-center">Modern Tiles GH</h1>
-          <p class="text-white text-center">Home of quality and affordable Italian tiles.</p>
+          <h1 class="text-white text-center">Modern Tiles GH Ltd</h1>
+          <p class="text-white text-center">Wholesale And Retail Of Quality Italian <br> Floor And Wall Tiles</p>
           <div class="text-center">
             <router-link :to="{name: 'Gallery'}" class="btn btn-info btn-lg">Click to see more</router-link>
           </div>

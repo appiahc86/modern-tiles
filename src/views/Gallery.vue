@@ -1,6 +1,7 @@
 <template>
-
-    <h1>Gallery Page</h1>
+    <br>
+    <h3 class="text-center text-danger">We have your ideal style</h3>
+    <p class="text-center">Please click on an image to enlarge it</p>
 
 
 <div class="container">
@@ -150,6 +151,8 @@
 <!--        <div id="caption"></div>-->
     </div>
 
+    <div ref="mount" style="display: none; margin-top: 500px;">Mounting...............</div>
+
 </template>
 
 <script>
@@ -171,6 +174,9 @@
                 const modal = this.$refs.modal;
                 modal.style.display = "none";
             }
+        },
+        beforeMount() {
+
         }
 
     }

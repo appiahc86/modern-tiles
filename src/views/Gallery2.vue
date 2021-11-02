@@ -1,6 +1,8 @@
 <template>
 
-    <h1>Gallery Page</h1>
+    <br>
+    <h3 class="text-center text-danger">We Handpick The Best Products For You</h3>
+    <p class="text-center">Please click on an image to enlarge it</p>
 
 
     <div class="container">

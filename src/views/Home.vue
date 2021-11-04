@@ -1,19 +1,20 @@
 <template>
   <div class="home">
     <h1 class="text-white d-none d-lg-block">
-      <br><br><br><br>
+      <br><br>
     </h1>
-    <h1 class="text-white"></h1><br><br><br><br>
+    <h1 class="text-white"></h1><br><br><br>
     <h1 class="text-white"></h1>
     <h1 class="text-white"></h1>
     <h1 class="text-white"></h1>
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-10">
+
           <h1 class="text-white text-center">Modern Tiles GH Ltd</h1>
           <p class="text-white text-center">Wholesale And Retail Of Quality Italian <br> Floor And Wall Tiles</p>
           <div class="text-center">
-            <router-link :to="{name: 'Gallery'}" class="btn btn-info btn-lg">Click to see more</router-link>
+            <router-link  :to="{name: 'Gallery'}" class="btn btn-lg">Click to see more</router-link>
           </div>
 
         </div>
@@ -26,7 +27,7 @@
     <h1 class="text-white"></h1>
     <h1 class="text-white"></h1><br><br><br><br>
     <h1 class="text-white d-none d-lg-block">
-      <br><br><br><br> <br><br>
+      <br><br><br>
     </h1>
   </div>
   
@@ -116,6 +117,37 @@ export default {
     }
     p{
       font-size: 2em !important;
+    }
+  }
+
+.btn{
+  background: rgba(255, 215, 0, 0.99);
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.70);
+}
+
+
+
+  h1 {
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #ffffff, gold, #ffffff);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 5s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
     }
   }
 

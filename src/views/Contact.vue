@@ -22,13 +22,12 @@
                 <h3 class="mt-2">Location</h3>
                 <cite>
                     Patasi, Palmer School Junction <br>
-                    Opposite 5th Edition Washing Bay. <br>
-                    Off Santasi Road
+                    Opposite 5th Edition Washing Bay <br>
+                    Off Santasi Road, <b>Kumasi</b>
                 </cite>
+
             </div>
-
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.7334879529517!2d-1.6426920852284472!3d6.679902695170323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNDAnNDcuNyJOIDHCsDM4JzI1LjgiVw!5e0!3m2!1sen!2sgh!4v1635848318432!5m2!1sen!2sgh" allowfullscreen="" loading="lazy"></iframe>
-
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.7334879529517!2d-1.6426920852284472!3d6.679902695170323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNDAnNDcuNyJOIDHCsDM4JzI1LjgiVw!5e0!3m2!1sen!2sgh!4v1635848318432!5m2!1sen!2sgh" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </div>
 </template>
@@ -53,9 +52,7 @@
         font-size: 24px;
         font-weight: bold;
     }
-    iframe{
-        /*border-radius: 50px;*/
-    }
+
     .contact{
         background: #ccc;
     }

@@ -3,14 +3,14 @@
   <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
       <router-link :to="{name: 'Home'}" class="navbar-brand"><img src="../public/img/logo.png" width="60" height="50" alt="logo"></router-link>
-      <button class="navbar-toggler" type="button" ref="toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="fas fa-ellipsis-h"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup" ref="navbarCollapse">
         <div class="navbar-nav">
-          <router-link :to="{name: 'Home'}" class="nav-link text-center" @click="navClick" aria-current="page">Home</router-link>
-          <router-link :to="{name: 'Gallery'}" class="nav-link text-center"  @click="navClick">Gallery</router-link>
-          <router-link :to="{name: 'Contact'}" class="nav-link text-center"  @click="navClick">Contact</router-link>
+          <router-link :to="{name: 'Home'}" class="nav-link text-center" aria-current="page">Home</router-link>
+          <router-link :to="{name: 'Gallery'}" class="nav-link text-center">Gallery</router-link>
+          <router-link :to="{name: 'Contact'}" class="nav-link text-center">Contact</router-link>
         </div>
       </div>
     </div>
@@ -43,13 +43,25 @@
 </template>
 
 <script>
+  import { watch, ref } from "vue";
+  import { useRoute } from "vue-router";
+
   export default {
     name: 'App',
-    methods:{
-      navClick(){
-        this.$refs.toggler.click();
-      }
+
+    setup(){
+      const navbarCollapse = ref(null);
+      const route =  useRoute();
+
+      watch(route, (to, from) => {
+        navbarCollapse.value.classList.remove('show');
+      })
+
+
+      return { navbarCollapse };
     }
+
+
   }
 
 

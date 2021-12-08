@@ -29,7 +29,10 @@ const routes = [
 
   },
 //    redirect to home page if route not found
-  { path: '/:pathMatch(.*)*', component: Home }
+  { 
+    path: '/:catchAll(.*)*',
+    redirect: {name: 'Home'}
+   }
 ]
 
 const router = createRouter({

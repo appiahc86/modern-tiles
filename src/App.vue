@@ -28,10 +28,10 @@
         <div class="col-lg-4 text-lg-start text-center">
           Copyright &copy;
           <span style="font-weight: bold;">Modern Tiles GH</span>
-         2021
+         2022
         </div>
-        <div class="col-lg-4 my-3 my-lg-0 text-center">
 
+        <div class="col-lg-4 my-3 my-lg-0 text-center">
           <a class="btn btn-dark btn-social mx-2" href="tel:+233240829816"><i class="fas fa-phone"></i></a>
           <a class="btn btn-success btn-social mx-2" href="https://api.whatsapp.com/send?phone=233240829816"><i class="fab fa-whatsapp"></i></a>
           <a class="btn btn-primary btn-social mx-2" href="https://web.facebook.com/Modern-Tiles-Gh-Ltd-107072184972560"><i class="fab fa-facebook-f"></i></a>
@@ -42,14 +42,10 @@
   </footer>
 </template>
 
-<script>
+<script setup>
   import { watch, ref } from "vue";
   import { useRoute } from "vue-router";
 
-  export default {
-    name: 'App',
-
-    setup(){
       const navbarCollapse = ref(null);
       const route =  useRoute();
 
@@ -57,12 +53,6 @@
         navbarCollapse.value.classList.remove('show');
       })
 
-
-      return { navbarCollapse };
-    }
-
-
-  }
 
 
 </script>

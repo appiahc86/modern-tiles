@@ -175,9 +175,7 @@
                 modal.style.display = "none";
             }
         },
-        beforeMount() {
 
-        }
 
     }
 </script>

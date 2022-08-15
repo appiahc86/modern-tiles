@@ -17,7 +17,10 @@
         <div class="row">
             <div class="col text-center">
                 <h2 class="enquiries">GENERAL ENQUIRIES</h2>
-                <p><span class="fas fa-phone"></span> <a href="tel:+233240829816" style="text-decoration: none; color: black">+233 240 829 816</a></p>
+                <p><span class="fas fa-phone"></span>
+                  <a href="tel:+233240829816" style="text-decoration: none; color: black"> 0240 829 816</a> /
+                  <a href="tel:+233201851808" style="text-decoration: none; color: black">0201 851 808</a>
+                </p>
                 <p><span class="fas fa-envelope"></span> moderntilesghltd@gmail.com</p>
                 <h3 class="mt-2">Location</h3>
                 <cite>
@@ -27,7 +30,7 @@
                 </cite>
 
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.7334879529517!2d-1.6426920852284472!3d6.679902695170323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwNDAnNDcuNyJOIDHCsDM4JzI1LjgiVw!5e0!3m2!1sen!2sgh!4v1635848318432!5m2!1sen!2sgh" allowfullscreen="" loading="lazy"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.7214406406974!2d-1.6409690861234305!3d6.681389823163492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb970cb6888acd%3A0x388cd70277e9449a!2sModern%20Tiles%20GH%20Ltd!5e0!3m2!1sen!2sgh!4v1660552184186!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 </template>

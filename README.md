@@ -1,4 +1,4 @@
-# modern-tiles
+# Website for modern-tiles
 
 ## Project setup
 ```

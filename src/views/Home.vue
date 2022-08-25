@@ -36,7 +36,7 @@
     <div class="row">
       <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-2">
         <div class="card shadow p-1">
-          <img class="img-fluid rounded-3" src="../../public/img/home/1.jpeg" alt="">
+          <img class="img-fluid rounded-3" src="../../public/img/home/1.jpg" alt="">
         </div>
       </div>
 
@@ -48,13 +48,13 @@
 
       <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-2">
         <div class="card shadow p-1">
-            <img class="img-fluid rounded-3" src="../../public/img/home/3.jpeg" alt="">
+            <img class="img-fluid rounded-3" src="../../public/img/home/3.jpg" alt="">
         </div>
       </div>
 
       <div class="col-6 col-sm-6 col-md-6 col-lg-3 mb-2">
         <div class="card shadow p-1">
-            <img class="img-fluid" src="../../public/img/home/4.jpeg" alt="">
+            <img class="img-fluid" src="../../public/img/home/4.jpg" alt="">
         </div>
       </div>
     </div>
@@ -106,7 +106,7 @@ export default {
 
 <style scoped>
   .home{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.29), rgba(0, 0, 0, 0.10)),url("../../public/img/bg.jpeg");
+    background-image: linear-gradient( rgba(0, 0, 0, 0.29), rgba(0, 0, 0, 0.10)),url("../../public/img/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }

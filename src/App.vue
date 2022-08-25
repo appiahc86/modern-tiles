@@ -2,7 +2,7 @@
 
   <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
-      <router-link :to="{name: 'Home'}" class="navbar-brand"><img src="../public/img/logo.png" width="60" height="50" alt="logo"></router-link>
+      <router-link :to="{name: 'Home'}" class="navbar-brand"><img src="../public/img/logo.jpg" width="60" height="50" alt="logo"></router-link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="fas fa-ellipsis-h"></span>
       </button>

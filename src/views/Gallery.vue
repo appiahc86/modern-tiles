@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-6 col-sm-4 col-md-3 mb-2">
             <div class="card shadow p-1">
-                <a data-bs-toggle="modal" href="" @click="openModal">
+                <a data-bs-toggle="modal" @click="openModal">
                     <img class="img-fluid rounded-3" src="../../public/img/page1/1.jpg" alt="">
                 </a>
 
@@ -16,7 +16,7 @@
         </div>
         <div class="col-6 col-sm-4 col-md-3 mb-2">
             <div class="card shadow p-1">
-                <a data-bs-toggle="modal" href="#a" @click="openModal">
+                <a data-bs-toggle="modal" @click="openModal">
                     <img class="img-fluid rounded-3" src="../../public/img/page1/2.jpg" alt="">
                 </a>
 
@@ -24,14 +24,14 @@
         </div>
         <div class="col-6 col-sm-4 col-md-3 mb-2">
             <div class="card shadow p-1">
-                <a data-bs-toggle="modal" href="#a" @click="openModal">
+                <a data-bs-toggle="modal" @click="openModal">
                     <img class="img-fluid rounded-3" src="../../public/img/page1/3.jpg" alt="">
                 </a>
             </div>
         </div>
         <div class="col-6 col-sm-4 col-md-3 mb-2">
             <div class="card shadow p-1">
-                <a data-bs-toggle="modal" href="#a" @click="openModal">
+                <a data-bs-toggle="modal" @click="openModal">
                     <img class="img-fluid rounded-3" src="../../public/img/page1/4.jpg" alt="">
                 </a>
             </div>
@@ -40,28 +40,28 @@
         <!-- second four columns  -->
         <div class="col-6 col-sm-4 col-md-3 mb-2">
             <div class="card shadow p-1">
-                <a data-bs-toggle="modal" href="#a" @click="openModal">
+                <a data-bs-toggle="modal" @click="openModal">
                     <img class="img-fluid rounded-3" src="../../public/img/page1/5.jpg" alt="">
                 </a>
             </div>
         </div>
         <div class="col-6 col-sm-4 col-md-3 mb-2">
             <div class="card shadow p-1">
-                <a data-bs-toggle="modal" href="#a" @click="openModal">
+                <a data-bs-toggle="modal" @click="openModal">
                     <img class="img-fluid rounded-3" src="../../public/img/page1/6.jpg" alt="">
                 </a>
             </div>
         </div>
         <div class="col-6 col-sm-4 col-md-3 mb-2">
             <div class="card shadow p-1">
-                <a data-bs-toggle="modal" href="#a" @click="openModal">
+                <a data-bs-toggle="modal" @click="openModal">
                     <img class="img-fluid rounded-3" src="../../public/img/page1/7.jpg" alt="">
                 </a>
             </div>
         </div>
         <div class="col-6 col-sm-4 col-md-3 mb-2">
             <div class="card shadow p-1">
-                <a data-bs-toggle="modal" href="#a" @click="openModal">
+                <a data-bs-toggle="modal" @click="openModal">
                     <img class="img-fluid rounded-3" src="../../public/img/page1/8.jpg" alt="">
                 </a>
             </div>
@@ -71,28 +71,28 @@
     <!--  third 4 columns      -->
         <div class="col-6 col-sm-4 col-md-3 mb-2">
             <div class="card shadow p-1">
-                <a data-bs-toggle="modal" href="#a" @click="openModal">
+                <a data-bs-toggle="modal" @click="openModal">
                     <img class="img-fluid rounded-3" src="../../public/img/page1/9.jpg" alt="">
                 </a>
             </div>
         </div>
         <div class="col-6 col-sm-4 col-md-3 mb-2">
             <div class="card shadow p-1">
-                <a data-bs-toggle="modal" href="#a" @click="openModal">
+                <a data-bs-toggle="modal" @click="openModal">
                     <img class="img-fluid rounded-3" src="../../public/img/page1/10.jpg" alt="">
                 </a>
             </div>
         </div>
         <div class="col-6 col-sm-4 col-md-3 mb-2">
             <div class="card shadow p-1">
-                <a data-bs-toggle="modal" href="#a" @click="openModal">
+                <a data-bs-toggle="modal" @click="openModal">
                     <img class="img-fluid rounded-3" src="../../public/img/page1/11.jpg" alt="">
                 </a>
             </div>
         </div>
         <div class="col-6 col-sm-4 col-md-3 mb-2">
             <div class="card shadow p-1">
-                <a data-bs-toggle="modal" href="#a" @click="openModal">
+                <a data-bs-toggle="modal" @click="openModal">
                     <img class="img-fluid rounded-3" src="../../public/img/page1/12.jpg" alt="">
                 </a>
             </div>
@@ -101,28 +101,28 @@
         <!--  Last 4 columns      -->
         <div class="col-6 col-sm-4 col-md-3 mb-2">
             <div class="card shadow p-1">
-                <a data-bs-toggle="modal" href="#a" @click="openModal">
+                <a data-bs-toggle="modal" @click="openModal">
                     <img class="img-fluid rounded-3" src="../../public/img/page1/13.jpg" alt="">
                 </a>
             </div>
         </div>
         <div class="col-6 col-sm-4 col-md-3 mb-2">
             <div class="card shadow p-1">
-                <a data-bs-toggle="modal" href="#a" @click="openModal">
+                <a data-bs-toggle="modal" @click="openModal">
                     <img class="img-fluid rounded-3" src="../../public/img/page1/14.jpg" alt="">
                 </a>
             </div>
         </div>
         <div class="col-6 col-sm-4 col-md-3 mb-2">
             <div class="card shadow p-1">
-                <a data-bs-toggle="modal" href="#a" @click="openModal">
+                <a data-bs-toggle="modal" @click="openModal">
                     <img class="img-fluid rounded-3" src="../../public/img/page1/15.jpg" alt="">
                 </a>
             </div>
         </div>
         <div class="col-6 col-sm-4 col-md-3 mb-2">
             <div class="card shadow p-1">
-                <a data-bs-toggle="modal" href="#a" @click="openModal">
+                <a data-bs-toggle="modal" @click="openModal">
                     <img class="img-fluid rounded-3" src="../../public/img/page1/16.jpg" alt="">
                 </a>
             </div>
@@ -135,8 +135,8 @@
         <ul class="pagination justify-content-center mt-2">
 
             <li class=""><a class="btn btn-primary">1</a></li>&nbsp;&nbsp;
-            <li class="page-item"><router-link :to="{name: 'Gallery2'}" class="page-link" href="#">2</router-link></li>&nbsp;&nbsp;
-            <li class="page-item"><router-link :to="{name: 'Gallery2'}" class="page-link" href="#"><span class="fas fa-chevron-right"></span></router-link></li>
+            <li class="page-item"><router-link :to="{name: 'Gallery2'}" class="page-link">2</router-link></li>&nbsp;&nbsp;
+            <li class="page-item"><router-link :to="{name: 'Gallery2'}" class="page-link"><span class="fas fa-chevron-right"></span></router-link></li>
         </ul>
 
 
@@ -148,7 +148,6 @@
     <div id="myModal" ref="modal" class="modal" style="margin-top: 4rem;">
         <span class="close" @click="closeModal">&times;</span>
         <img class="modal-content" ref="modalImage">
-<!--        <div id="caption"></div>-->
     </div>
 
     <div ref="mount" style="display: none; margin-top: 500px;">Mounting...............</div>

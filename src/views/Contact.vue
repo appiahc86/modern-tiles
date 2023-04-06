@@ -24,9 +24,9 @@
                 <p><span class="fas fa-envelope"></span> moderntilesghltd@gmail.com</p>
                 <h3 class="mt-2">Location (Kumasi)</h3>
                 <cite>
-                    Airport Roundabout <br>
-                    Sokoban <br>
-                    Patasi
+                    New Orleans Hotel<br>
+                    Danyame <br>
+                    Kumasi
                 </cite>
 
             </div>

@@ -24,11 +24,17 @@
                 <p><span class="fas fa-envelope"></span> moderntilesghltd@gmail.com</p>
                 <h3 class="mt-2">Location (Kumasi)</h3>
                 <cite>
-                    New Orleans Hotel<br>
-                    Danyame <br>
+                    New Orleans Hotel, Danyame<br>
+                    Near Miklin Hotel <br>
                     Kumasi
                 </cite>
 
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.743389513819!2d-1.6395819257635391!3d6.678680193316519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb970cb6888acd%3A0x388cd70277e9449a!2sModern%20Tiles%20GH%20Ltd!5e0!3m2!1sen!2sgh!4v1680938321412!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
